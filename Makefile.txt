@@ -1,0 +1,7 @@
+
+publish:
+	npm publish
+
+publish-sync: publish
+	cnpm sync star-initReact
+	tnpm sync star-initReact

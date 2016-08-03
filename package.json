@@ -1,0 +1,24 @@
+{
+  "name": "star-initReact",
+  "version": "1.1.3",
+  "description": "React with antd Application boilerplate generator.",
+  "mail": "pookpal <374680555@qq.com>",
+  "license": "MIT",
+  "bin": {
+    "star-initReact": "./bin/star-initReact.js"
+  },
+  "scripts": {
+    "test": "mocha --no-timeouts"
+  },
+  "dependencies": {
+    "inquirer": "^1.0.0",
+    "through2": "2.0.x",
+    "vinyl-fs": "^2.4.3",
+    "which": "1.2.x"
+  },
+  "devDependencies": {
+    "coffee": "^3.2.1",
+    "mocha": "2",
+    "rimraf": "^2.5.2"
+  }
+}
