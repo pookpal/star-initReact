@@ -92,9 +92,8 @@ $ npm run build
 
 > 通过 [redbox-react](https://github.com/KeywordBrain/redbox-react) 和 webpack hmr overlay 提示运行错误和语法错误
 
-自动安装 npm 依赖
 
-> ![](https://camo.githubusercontent.com/898e02d6539900efe65fadbfd15e2a1d7ce4dccf/68747470733a2f2f6f732e616c697061796f626a656374732e636f6d2f726d73706f7274616c2f4b6541474f776a70746a6152684d6d2e676966)
+
 ## License
 
 MIT
