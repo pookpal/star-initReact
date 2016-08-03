@@ -1,8 +1,12 @@
 {
   "name": "star-initReact",
-  "version": "1.1.3",
+  "version": "2.0.0",
   "description": "React with antd Application boilerplate generator.",
   "mail": "pookpal <374680555@qq.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pookpal/star-initReact"
+  },
   "license": "MIT",
   "bin": {
     "star-initReact": "./bin/star-initReact.js"

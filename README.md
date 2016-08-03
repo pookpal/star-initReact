@@ -1,3 +1,4 @@
+
 # star-initReact
 
 A boilerplate with react, redux, react-router, ant-design, webpack, webpack-dev-server, babel, css-modules ...
@@ -83,7 +84,6 @@ $ npm run build
 支持 css-modules
 
 > src/components和src/views中的 less 文件会被解析为 css-modules
-
 
 ## License
 MIT
