@@ -74,7 +74,7 @@ $ npm run build
 
 热替换和 LiveReload
 
-> 基于 [Webpack Vanilla HMR](https://webpack.github.io/docs/hot-module-replacement-with-webpack.html)，支持 `components`, `reducers`, `routers`, `sagas`, `layouts` 目录的模块热替换，其余目录的修改则会自动刷新页面。
+> 基于 [Webpack Vanilla HMR](https://webpack.github.io/docs/hot-module-replacement-with-webpack.html)，支持 `components`, `router`, `views` 目录的模块热替换，其余目录的修改则会自动刷新页面。
 
 > CSS 的自动刷新需通过 [LiveReload](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei) Chrome 插件配合使用。
 
@@ -83,11 +83,6 @@ $ npm run build
 支持 css-modules
 
 > src/components和src/views中的 less 文件会被解析为 css-modules
-
-运行错误和语法错误的提醒
-
-> 通过 [redbox-react](https://github.com/KeywordBrain/redbox-react) 和 webpack hmr overlay 提示运行错误和语法错误
-
 
 
 ## License
