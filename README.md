@@ -58,11 +58,6 @@ $ npm run build
 └── package.json         # 配置入口文件、依赖和 scripts
 ```
 
-## 系统组织
-
-![](https://camo.githubusercontent.com/068c4ff126977b861cff3338428bdde6927f7dad/68747470733a2f2f6f732e616c697061796f626a656374732e636f6d2f726d73706f7274616c2f43684d775a42755a6c614c725377652e706e67)
-
-详见：[React + Redux 最佳实践](https://github.com/sorrycc/blog/issues/1)
 
 ## 内置类库
 
