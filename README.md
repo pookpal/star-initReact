@@ -10,9 +10,10 @@ $ sudo npm i -g star-initReact (如果是window系统请使用系统管理员权
 ## 准备环境
 
 ```bash
+
 $ mkdir app && cd app
 $ star-initReact
-$ npm install
+
 ```
 
 想要更好的开发体验，还需安装两个 Chrome 插件：[Redux DevTools](https://chrome.google.com/webstore/detail/lmhkpmbekcpmknklioeibfkpmmfibljd) 和 [LiveReload](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei) 。
