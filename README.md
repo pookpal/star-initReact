@@ -40,21 +40,25 @@ $ npm run build
 ## 目录结构
 
 ```
-.
-├── /dist/               # 构建输出的文件会在这里
-├── /scripts/            # 生成国际化配置文件脚本
+├── /dist/               # 打包输出的部署文件夹，上线部署时使用此文件
+├── /scripts/            # 自动化脚本目录，比如生成国际化配置文件脚本
 ├── /node_modules/       # 第三方类库和工具
-├── /src/                # 应用源码
+├── /src/                # 应用源码目录
 ├ ├── /assets/           # 静态资源文件
-│ ├── /components/       # React components
-│ ├── /entries/          # 应用入口
+│ ├── /components/       # 全局组件目录，自己封装的全局组件
+│ ├── /entries/          # 应用入口文件
 │ ├── /locale/           # 国际化配置文件,会自动生成
-│ ├── /route/            # 路由信息
+│ ├── /route/            # 路由配置文件
 │ ├── /store/            # redux 
-│ ├── /styles/           # 全局样式 
+│ ├── /styles/           # 全局样式文件夹 
 │ ├── /temp/             # 临时文件，会自动生成
-│ └── /views/            # 页面组件
-├── .babelrc             # 配置 babel
+│ └── /views/            # 子系统模块目录
+|   |———— /子系统1页面目录 # 子系统1的页面目录
+|   |———— /子系统2页面目录 # 子系统2的页面目录
+|   |———— /子系统3页面目录 # 子系统3的页面目录
+|   |———— /子系统4页面目录 # 子系统4的页面目录
+|   |———— /子系统5页面目录 # 子系统5的页面目录
+├── .babelrc             # 配置babel，编译ES6等
 ├── webpack.config.js    # 扩展开发调试 webpack 配置
 ├── webpack.production.config.js    # 扩展打包构建 webpack 配置
 └── package.json         # 配置入口文件、依赖和 scripts
